@@ -13,14 +13,14 @@ h1 { color: black; font-size: 30; text-align: center;}
 }
 
 #main_slide {width: 30%;}
-#main_slide > div.wrap > div#slider {overflow: hidden; position: relative;}
+#main_slide > div.wrap > div#slider {overflow: hidden; position: relative; left: 120%;}
 div#slider > div > img {width: 33.333333333333333333333333%; float:left;}
 div#slider > div { 
     position: relative;
     width: 300%;
-    margin: 0;
+    margin:0;
     top:0;
-    left:50%;
+    left:0;
     text-align: center;
     font-size: 0;
     -webkit-animation: 20s slidy ease-in-out infinite;
