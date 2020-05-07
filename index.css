@@ -1,6 +1,8 @@
 
 h1 { color: black; font-size: 30; text-align: center;}
 
+p{ text-align: center; font-size: 20;}
+
 
 @keyframes slidy {
     0% { left: 0px; }
@@ -25,7 +27,6 @@ div#slider > div {
     font-size: 0;
     -webkit-animation: 20s slidy ease-in-out infinite;
     animation: 20s slidy ease-in-out infinite;
+
 }
-
-
 
