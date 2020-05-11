@@ -31,3 +31,9 @@ div#slider > div {
 }
 
 
+.contain {
+    position: relative;
+    border-color: black;
+    width: auto;
+    height: auto;
+}
